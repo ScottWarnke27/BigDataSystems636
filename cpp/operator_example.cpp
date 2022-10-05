@@ -33,4 +33,17 @@ int main(){
 
     //access strings
     cout << text[0]; //if i want to see a particular charater from a given string
+
+    //user inputs
+   // string userName;
+   // cout << "Type your first name: ";
+   // cin >> userName; //get user input from the keyboard
+   // cout<< userName << " wants Army to Beat Navy!";
+
+    //for a better user input, use getLine instead...it wont terminate when a user inputs a space
+    string userFullName;
+    cout << "Type your full name:";
+    getline (cin, userFullName);
+    cout << userFullName << " wants Army to Beat the HELL out of Navy!";
+
 }
